@@ -1,5 +1,5 @@
 package com.alura.desafio.model;
-
+//JAVIELIS
 import jakarta.persistence.*;
 import java.util.List;
 import java.util.stream.Collectors;

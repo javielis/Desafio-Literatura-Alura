@@ -1,7 +1,7 @@
 package com.alura.desafio.service;
 
-import com.alurachallenge.Liter_alura.model.DatosAutor;
-import com.alurachallenge.Liter_alura.model.DatosLibros;
+import com.alura.desafio.model.DatosAutor;
+import com.alura.desafio.model.DatosLibros;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
