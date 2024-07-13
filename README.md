@@ -1,17 +1,10 @@
-  *
-    ##Readme del proyecto desafio alura de literatura
+# Proyecto Desafio Alura de Literatura
 
-    ##Introducción
+## Introducción
 
-* El proyecto Literatura es una plataforma diseñada con Spring Boot que facilita
-la gestión de datos relacionados con autores y libros. Utilizando una base de datos PostgreSQL,
-la aplicación almacena de manera segura la información y proporciona a los usuarios una interfaz intuitiva para
-navegar y realizar consultas sobre autores y libros. La aplicación cuenta con funcionalidades avanzadas para 
-la búsqueda, filtrado y visualización de datos, lo que la convierte en una herramienta indispensable para profesionales
-del mundo literario y aficionados a la lectura*  
+El proyecto Literatura es una plataforma diseñada con Spring Boot que facilita la gestión de datos relacionados con autores y libros. Utilizando una base de datos PostgreSQL, la aplicación almacena de manera segura la información y proporciona a los usuarios una interfaz intuitiva para navegar y realizar consultas sobre autores y libros. La aplicación cuenta con funcionalidades avanzadas para la búsqueda, filtrado y visualización de datos, lo que la convierte en una herramienta indispensable para profesionales del mundo literario y aficionados a la lectura.
 
-
-    #La aplicación ofrece las siguientes funcionalidades:
+## Funcionalidades
 
 1. Gestión de autores: crear, leer, actualizar y eliminar autores.
 2. Gestión de libros: crear, leer, actualizar y eliminar libros.
@@ -19,16 +12,15 @@ del mundo literario y aficionados a la lectura*
 4. Obtención de la lista de idiomas disponibles.
 5. Obtención de la lista de libros por idioma.
 
-       #Tecnologías utilizadas
+## Tecnologías utilizadas
 
+- **Spring Boot**: framework para desarrollar aplicaciones web.
+- **PostgreSQL**: base de datos relacional.
+- **Hibernate**: ORM (Object-Relational Mapping) para interactuar con la base de datos.
+- **Jackson**: biblioteca para serializar y deserializar objetos en formato JSON.
+- **Java**: lenguaje de programación utilizado.
 
-1. Spring Boot: framework para desarrollar aplicaciones web.
-2. PostgreSQL: base de datos relacional.
-3. Hibernate: ORM (Object-Relational Mapping) para interactuar con la base de datos.
-4. Jackson: biblioteca para serializar y deserializar objetos en formato JSON.
+## Configuración
 
-       ##Configuración
-La aplicación utiliza variables de entorno para configurar la conexión a la base de datos. Los valores de las variables de entorno se establecen en el archivo application.properties.
-
-*
+La aplicación utiliza variables de entorno para configurar la conexión a la base de datos. Los valores de las variables de entorno se establecen en el archivo `application.properties`.
 
