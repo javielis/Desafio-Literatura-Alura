@@ -1,4 +1,4 @@
-  
+  *
     ##Readme del proyecto desafio alura de literatura
 
     ##Introducción
@@ -11,7 +11,7 @@ la búsqueda, filtrado y visualización de datos, lo que la convierte en una her
 del mundo literario y aficionados a la lectura*  
 
 
-    ##La aplicación ofrece las siguientes funcionalidades:
+    #La aplicación ofrece las siguientes funcionalidades:
 
 1. Gestión de autores: crear, leer, actualizar y eliminar autores.
 2. Gestión de libros: crear, leer, actualizar y eliminar libros.
@@ -19,7 +19,7 @@ del mundo literario y aficionados a la lectura*
 4. Obtención de la lista de idiomas disponibles.
 5. Obtención de la lista de libros por idioma.
 
-       ##Tecnologías utilizadas
+       #Tecnologías utilizadas
 
 
 1. Spring Boot: framework para desarrollar aplicaciones web.
@@ -30,5 +30,5 @@ del mundo literario y aficionados a la lectura*
        ##Configuración
 La aplicación utiliza variables de entorno para configurar la conexión a la base de datos. Los valores de las variables de entorno se establecen en el archivo application.properties.
 
-
+*
 
